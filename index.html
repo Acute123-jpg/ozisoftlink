@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ozisoft — Digital Craft Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+     <a href=""> <img src="logo.png" width="170px" alt=""></a>
+      
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link active">Home</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="work.html" class="nav__link">Work</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link nav__link--cta">Get a Quote</a></li>
+      </ul>
+
+      <button class="nav__burger" id="burgerBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="services.html" class="nav__mobile-link">Services</a>
+      <a href="work.html" class="nav__mobile-link">Work</a>
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <a href="contact.html" class="nav__mobile-link nav__mobile-link--cta">Get a Quote →</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__badge">✦ Digital Solutions Studio</div>
+      <h1 class="hero__title">
+        We Build<br/>
+        <span class="hero__title-accent">Digital Products</span><br/>
+        That Matter
+      </h1>
+      <p class="hero__sub">From stunning websites to powerful mobile apps — Ozisoft engineers and designs software that drives real business growth.</p>
+      <div class="hero__actions">
+        <a href="services.html" class="btn btn--primary">Explore Services</a>
+        <a href="work.html" class="btn btn--ghost">View Our Work →</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat"><strong>20+</strong><span>Projects Delivered</span></div>
+        <div class="hero__stat"><strong>98%</strong><span>Client Satisfaction</span></div>
+        <div class="hero__stat"><strong id="age"></strong><span>Years Experience</span></div>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__card hero__card--1">
+        <div class="card-icon">🌐</div>
+        <p>Web Development</p>
+      </div>
+      <div class="hero__card hero__card--2">
+        <div class="card-icon">📱</div>
+        <p>App Development</p>
+      </div>
+      <div class="hero__card hero__card--3">
+        <div class="card-icon">⚙️</div>
+        <p>Software Solutions</p>
+      </div>
+      <div class="hero__screen">
+        <div class="screen__bar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="screen__body">
+          <div class="screen__line screen__line--short"></div>
+          <div class="screen__line"></div>
+          <div class="screen__line screen__line--med"></div>
+          <div class="screen__block"></div>
+          <div class="screen__line screen__line--short"></div>
+          <div class="screen__line screen__line--med"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES PREVIEW -->
+  <section class="services-preview section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">✦ What We Do</p>
+        <h2 class="section-title">End-to-End Digital Services</h2>
+        <p class="section-sub">Everything you need to build, launch, and scale your digital product.</p>
+      </div>
+      <div class="services-grid">
+        <a href="services.html#web-development" class="service-card service-card--featured">
+          <div class="service-card__num">01</div>
+          <div class="service-card__icon">🌐</div>
+          <h3>Website Development</h3>
+          <p>Fast, beautiful, SEO-ready websites built with modern frameworks and pixel-perfect design.</p>
+          <span class="service-card__arrow">→</span>
+        </a>
+        <a href="services.html#app-development" class="service-card">
+          <div class="service-card__num">02</div>
+          <div class="service-card__icon">📱</div>
+          <h3>App Development</h3>
+          <p>Native and cross-platform mobile apps for iOS and Android that users love.</p>
+          <span class="service-card__arrow">→</span>
+        </a>
+        <a href="services.html#custom-software" class="service-card">
+          <div class="service-card__num">03</div>
+          <div class="service-card__icon">⚙️</div>
+          <h3>Custom Software</h3>
+          <p>Bespoke software solutions engineered to solve your unique business challenges.</p>
+          <span class="service-card__arrow">→</span>
+        </a>
+        <a href="services.html#ui-ux" class="service-card">
+          <div class="service-card__num">04</div>
+          <div class="service-card__icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>User-first design systems and interfaces that convert visitors into customers.</p>
+          <span class="service-card__arrow">→</span>
+        </a>
+      </div>
+      <div class="services-preview__cta">
+        <a href="services.html" class="btn btn--primary">See All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why section">
+    <div class="container">
+      <div class="why__inner">
+        <div class="why__left">
+          <p class="section-label">✦ Why Ozisoft</p>
+          <h2 class="section-title">Built Different.<br/>Delivered Better.</h2>
+          <p class="section-sub">We don't just write code — we partner with you to build products that achieve real outcomes.</p>
+          <a href="about.html" class="btn btn--primary" style="margin-top:2rem;">Meet the Team</a>
+        </div>
+        <div class="why__right">
+          <div class="why__item">
+            <div class="why__icon">⚡</div>
+            <div>
+              <h4>Speed Without Compromise</h4>
+              <p>Rapid delivery cycles with rigorous quality control — no shortcuts, no excuses.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">🔒</div>
+            <div>
+              <h4>Security-First Engineering</h4>
+              <p>Every line of code follows best practices for security, scalability, and maintainability.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">🤝</div>
+            <div>
+              <h4>True Partnership</h4>
+              <p>Transparent communication, regular updates, and a team that genuinely cares.</p>
+            </div>
+          </div>
+          <div class="why__item">
+            <div class="why__icon">📈</div>
+            <div>
+              <h4>Growth-Oriented</h4>
+              <p>We build for scale, ensuring your product grows as your business does.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">✦ Client Words</p>
+        <h2 class="section-title">Trusted by Founders &amp; Teams</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"Ozisoft completely transformed our online presence. Our new website increased conversions by 40% in the first month."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">AM</div>
+            <div>
+              <strong>Amara Mensah</strong>
+              <span>CEO, Zenith Retail</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial testimonial--accent">
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"The mobile app they built for us has over 10,000 downloads. The team was professional, fast, and incredibly talented."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">KO</div>
+            <div>
+              <strong>Kwame Osei</strong>
+              <span>Founder, Trackr App</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p>"From concept to launch in 6 weeks. Ozisoft delivered a custom ERP system that saved us 20 hours of manual work per week."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">FN</div>
+            <div>
+              <strong>Fatima Nwosu</strong>
+              <span>COO, LogiTrack Ltd</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-banner__orb"></div>
+    <div class="container">
+      <h2>Ready to Build Something Great?</h2>
+      <p>Let's turn your vision into a world-class digital product.</p>
+      <a href="contact.html" class="btn btn--white">Start Your Project →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href=""> <img src="logo.png" width="170px" alt=""></a>        
+          <p>Building digital products that drive growth and create lasting impact.</p>
+        </div>
+        <div class="footer__links">
+          <h5>Company</h5>
+          <a href="about.html">About</a>
+          <a href="work.html">Work</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer__links">
+          <h5>Services</h5>
+          <a href="services.html#web-development">Web Development</a>
+          <a href="services.html#app-development">App Development</a>
+          <a href="services.html#custom-software">Custom Software</a>
+          <a href="services.html#ui-ux">UI/UX Design</a>
+        </div>
+        <div class="footer__links">
+          <h5>Connect</h5>
+          <a href="#">Twitter / X</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="mailto: hello@ozisoft.site">hello@ozisoft</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span class="year"></span> Ozisoft. All rights reserved.</p>
+        <p>Crafted with care ✦</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

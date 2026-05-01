@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Ozisoft</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+        <a href=""> <img src="logo.png" width="170px" alt=""></a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link active">Services</a></li>
+        <li><a href="work.html" class="nav__link">Work</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link nav__link--cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav__burger" id="burgerBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="services.html" class="nav__mobile-link">Services</a>
+      <a href="work.html" class="nav__mobile-link">Work</a>
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <a href="contact.html" class="nav__mobile-link nav__mobile-link--cta">Get a Quote →</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+    </div>
+    <div class="container">
+      <p class="section-label">✦ Our Services</p>
+      <h1 class="page-hero__title">Everything You Need<br/><span class="hero__title-accent">To Go Digital</span></h1>
+      <p class="page-hero__sub">From design to deployment — we cover every layer of the modern digital stack.</p>
+    </div>
+  </section>
+
+  <!-- SERVICE TABS NAV -->
+  <section class="service-tabs-nav">
+    <div class="container">
+      <div class="stabs">
+        <a href="#web-development" class="stab active">🌐 Web Dev</a>
+        <a href="#app-development" class="stab">📱 App Dev</a>
+        <a href="#custom-software" class="stab">⚙️ Custom Software</a>
+        <a href="#ui-ux" class="stab">🎨 UI/UX Design</a>
+        <a href="#ecommerce" class="stab">🛒 E-Commerce</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEB DEVELOPMENT -->
+  <section class="service-detail section" id="web-development">
+    <div class="container">
+      <div class="service-detail__inner">
+        <div class="service-detail__left">
+          <div class="service-detail__badge">01 — Website Development</div>
+          <h2 class="service-detail__title">Websites That <span class="hero__title-accent">Convert</span></h2>
+          <p>We build fast, SEO-optimized, pixel-perfect websites that don't just look great — they perform. From landing pages to complex enterprise portals, our engineers use cutting-edge frameworks to deliver products that scale.</p>
+          <ul class="service-detail__list">
+            <li>✓ Custom design & branding</li>
+            <li>✓ Responsive across all devices</li>
+            <li>✓ SEO & performance optimized</li>
+            <li>✓ CMS integration (WordPress, Sanity, etc.)</li>
+            <li>✓ Blazing fast load speeds (Core Web Vitals)</li>
+            <li>✓ Ongoing maintenance & support</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Start a Web Project</a>
+        </div>
+        <div class="service-detail__right">
+          <div class="service-mockup service-mockup--browser">
+            <div class="mock-browser">
+              <div class="mock-browser__bar">
+                <div class="mock-dots"><span></span><span></span><span></span></div>
+                <div class="mock-url">ozisoft.site/your-site</div>
+              </div>
+              <div class="mock-browser__body">
+                <div class="mock-hero-block">
+                  <div class="mock-h1"></div>
+                  <div class="mock-h1 mock-h1--sm"></div>
+                  <div class="mock-p"></div>
+                  <div class="mock-btns"><div class="mock-btn mock-btn--filled"></div><div class="mock-btn"></div></div>
+                </div>
+                <div class="mock-cards">
+                  <div class="mock-card"><div class="mock-icon-box"></div><div class="mock-line"></div><div class="mock-line mock-line--sm"></div></div>
+                  <div class="mock-card"><div class="mock-icon-box"></div><div class="mock-line"></div><div class="mock-line mock-line--sm"></div></div>
+                  <div class="mock-card"><div class="mock-icon-box"></div><div class="mock-line"></div><div class="mock-line mock-line--sm"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APP DEVELOPMENT -->
+  <section class="service-detail service-detail--alt section" id="app-development">
+    <div class="container">
+      <div class="service-detail__inner service-detail__inner--rev">
+        <div class="service-detail__left">
+          <div class="service-detail__badge">02 — App Development</div>
+          <h2 class="service-detail__title">Apps Users <span class="hero__title-accent">Love</span></h2>
+          <p>We craft mobile experiences for iOS and Android that feel native, perform flawlessly, and keep users coming back. Our cross-platform expertise means you get two platforms for the price of one.</p>
+          <ul class="service-detail__list">
+            <li>✓ iOS & Android (React Native / Flutter)</li>
+            <li>✓ Native-feel UI with smooth animations</li>
+            <li>✓ App Store & Play Store submission</li>
+            <li>✓ Push notifications & real-time features</li>
+            <li>✓ Offline-first architecture</li>
+            <li>✓ Analytics & crash reporting</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Start an App Project</a>
+        </div>
+        <div class="service-detail__right">
+          <div class="service-mockup service-mockup--phone">
+            <div class="mock-phone">
+              <div class="mock-phone__notch"></div>
+              <div class="mock-phone__screen">
+                <div class="mock-app-header"><div class="mock-line mock-line--sm" style="width:60%"></div></div>
+                <div class="mock-app-banner"></div>
+                <div class="mock-app-grid">
+                  <div class="mock-app-item"><div class="mock-app-icon"></div><div class="mock-line mock-line--sm"></div></div>
+                  <div class="mock-app-item"><div class="mock-app-icon mock-app-icon--b"></div><div class="mock-line mock-line--sm"></div></div>
+                  <div class="mock-app-item"><div class="mock-app-icon mock-app-icon--c"></div><div class="mock-line mock-line--sm"></div></div>
+                  <div class="mock-app-item"><div class="mock-app-icon mock-app-icon--d"></div><div class="mock-line mock-line--sm"></div></div>
+                </div>
+                <div class="mock-app-list">
+                  <div class="mock-app-row"><div class="mock-dot"></div><div><div class="mock-line" style="width:80%"></div><div class="mock-line mock-line--sm" style="width:50%"></div></div></div>
+                  <div class="mock-app-row"><div class="mock-dot mock-dot--b"></div><div><div class="mock-line" style="width:65%"></div><div class="mock-line mock-line--sm" style="width:40%"></div></div></div>
+                </div>
+              </div>
+              <div class="mock-phone__home"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM SOFTWARE -->
+  <section class="service-detail section" id="custom-software">
+    <div class="container">
+      <div class="service-detail__inner">
+        <div class="service-detail__left">
+          <div class="service-detail__badge">03 — Custom Software</div>
+          <h2 class="service-detail__title">Software Built <span class="hero__title-accent">For You</span></h2>
+          <p>Off-the-shelf tools don't always fit. We engineer custom software — from CRMs and ERPs to SaaS platforms and internal tools — tailored precisely to your workflows and growth goals.</p>
+          <ul class="service-detail__list">
+            <li>✓ SaaS platform development</li>
+            <li>✓ ERP & CRM systems</li>
+            <li>✓ API design & integration</li>
+            <li>✓ Database architecture</li>
+            <li>✓ Cloud deployment (AWS, GCP, Azure)</li>
+            <li>✓ DevOps & CI/CD pipelines</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Discuss Your Software</a>
+        </div>
+        <div class="service-detail__right">
+          <div class="service-mockup">
+            <div class="mock-dashboard">
+              <div class="mock-sidebar">
+                <div class="mock-sidebar-logo"></div>
+                <div class="mock-nav-item mock-nav-item--active"></div>
+                <div class="mock-nav-item"></div>
+                <div class="mock-nav-item"></div>
+                <div class="mock-nav-item"></div>
+              </div>
+              <div class="mock-dash-body">
+                <div class="mock-dash-header"><div class="mock-line" style="width:40%"></div><div class="mock-btn mock-btn--filled" style="width:80px;height:28px"></div></div>
+                <div class="mock-stat-row">
+                  <div class="mock-stat-card"><div class="mock-stat-val"></div><div class="mock-line mock-line--sm"></div></div>
+                  <div class="mock-stat-card mock-stat-card--b"><div class="mock-stat-val"></div><div class="mock-line mock-line--sm"></div></div>
+                  <div class="mock-stat-card mock-stat-card--c"><div class="mock-stat-val"></div><div class="mock-line mock-line--sm"></div></div>
+                </div>
+                <div class="mock-chart-area">
+                  <div class="mock-bars">
+                    <div class="mock-bar" style="height:60%"></div>
+                    <div class="mock-bar" style="height:80%"></div>
+                    <div class="mock-bar mock-bar--accent" style="height:100%"></div>
+                    <div class="mock-bar" style="height:70%"></div>
+                    <div class="mock-bar" style="height:50%"></div>
+                    <div class="mock-bar mock-bar--accent" style="height:90%"></div>
+                    <div class="mock-bar" style="height:65%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UI/UX -->
+  <section class="service-detail service-detail--alt section" id="ui-ux">
+    <div class="container">
+      <div class="service-detail__inner service-detail__inner--rev">
+        <div class="service-detail__left">
+          <div class="service-detail__badge">04 — UI/UX Design</div>
+          <h2 class="service-detail__title">Design That <span class="hero__title-accent">Converts</span></h2>
+          <p>Beautiful, functional, and human-centered. We design interfaces that guide users intuitively, reduce friction, and drive the actions that matter most to your business.</p>
+          <ul class="service-detail__list">
+            <li>✓ User research & personas</li>
+            <li>✓ Wireframing & prototyping</li>
+            <li>✓ Design systems & style guides</li>
+            <li>✓ Interaction design & micro-animations</li>
+            <li>✓ Usability testing</li>
+            <li>✓ Figma handoff to dev</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Start Designing</a>
+        </div>
+        <div class="service-detail__right">
+          <div class="service-mockup">
+            <div class="mock-design-canvas">
+              <div class="mock-figma-header"><span class="mock-figma-icon">▣</span> Ozisoft Design System</div>
+              <div class="mock-design-body">
+                <div class="mock-color-row">
+                  <div class="mock-swatch mock-swatch--1"></div>
+                  <div class="mock-swatch mock-swatch--2"></div>
+                  <div class="mock-swatch mock-swatch--3"></div>
+                  <div class="mock-swatch mock-swatch--4"></div>
+                  <div class="mock-swatch mock-swatch--5"></div>
+                </div>
+                <div class="mock-type-sample">
+                  <div class="mock-h1" style="width:70%;height:18px;border-radius:4px;background:var(--c-text);opacity:.9"></div>
+                  <div class="mock-h1" style="width:50%;height:12px;border-radius:4px;background:var(--c-text);opacity:.5;margin-top:8px"></div>
+                  <div class="mock-p" style="width:100%;height:8px;border-radius:4px;background:var(--c-text);opacity:.2;margin-top:12px"></div>
+                  <div class="mock-p" style="width:90%;height:8px;border-radius:4px;background:var(--c-text);opacity:.2;margin-top:5px"></div>
+                </div>
+                <div class="mock-component-row">
+                  <div class="mock-btn mock-btn--filled" style="width:90px;height:32px;border-radius:20px"></div>
+                  <div class="mock-btn" style="width:90px;height:32px;border-radius:20px"></div>
+                  <div class="mock-chip">Tag</div>
+                  <div class="mock-chip mock-chip--b">Active</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECOMMERCE -->
+  <section class="service-detail section" id="ecommerce">
+    <div class="container">
+      <div class="service-detail__inner">
+        <div class="service-detail__left">
+          <div class="service-detail__badge">05 — E-Commerce</div>
+          <h2 class="service-detail__title">Stores Built to <span class="hero__title-accent">Sell</span></h2>
+          <p>We build high-converting e-commerce experiences on Shopify, WooCommerce, or fully custom platforms — with smooth checkout flows, inventory management, and analytics built in.</p>
+          <ul class="service-detail__list">
+            <li>✓ Shopify & WooCommerce development</li>
+            <li>✓ Custom e-commerce platforms</li>
+            <li>✓ Payment gateway integration</li>
+            <li>✓ Inventory & order management</li>
+            <li>✓ Product catalog & search</li>
+            <li>✓ Conversion rate optimization</li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Launch Your Store</a>
+        </div>
+        <div class="service-detail__right">
+          <div class="service-mockup">
+            <div class="mock-store">
+              <div class="mock-store-header">
+                <div class="mock-line" style="width:40%"></div>
+                <div class="mock-cart-icon">🛒 <span class="mock-badge">3</span></div>
+              </div>
+              <div class="mock-product-grid">
+                <div class="mock-product"><div class="mock-product-img"></div><div class="mock-line" style="width:70%;margin-top:8px"></div><div class="mock-price"></div></div>
+                <div class="mock-product"><div class="mock-product-img mock-product-img--b"></div><div class="mock-line" style="width:60%;margin-top:8px"></div><div class="mock-price"></div></div>
+                <div class="mock-product"><div class="mock-product-img mock-product-img--c"></div><div class="mock-line" style="width:80%;margin-top:8px"></div><div class="mock-price"></div></div>
+                <div class="mock-product"><div class="mock-product-img mock-product-img--d"></div><div class="mock-line" style="width:55%;margin-top:8px"></div><div class="mock-price"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">✦ How We Work</p>
+        <h2 class="section-title">Our Process</h2>
+        <p class="section-sub">A clear, transparent process that keeps you in control at every step.</p>
+      </div>
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__num">01</div>
+          <h4>Discovery</h4>
+          <p>We dive deep into your goals, users, and competitive landscape to build a solid foundation.</p>
+        </div>
+        <div class="process__arrow">→</div>
+        <div class="process__step">
+          <div class="process__num">02</div>
+          <h4>Design</h4>
+          <p>Wireframes, prototypes, and full visual designs — approved by you before a line of code is written.</p>
+        </div>
+        <div class="process__arrow">→</div>
+        <div class="process__step">
+          <div class="process__num">03</div>
+          <h4>Build</h4>
+          <p>Agile sprints with weekly demos. You see progress in real time, not just at the end.</p>
+        </div>
+        <div class="process__arrow">→</div>
+        <div class="process__step">
+          <div class="process__num">04</div>
+          <h4>Launch</h4>
+          <p>Rigorous testing, deployment, and post-launch support to make sure everything runs perfectly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="cta-banner__orb"></div>
+    <div class="container">
+      <h2>Let's Build Together</h2>
+      <p>Tell us about your project and we'll get back within 24 hours.</p>
+      <a href="contact.html" class="btn btn--white">Get a Free Quote →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+            <a href=""> <img src="logo.png" width="170px" alt=""></a>
+            <p>Building digital products that drive growth and create lasting impact.</p>
+        </div>
+        <div class="footer__links">
+          <h5>Company</h5>
+          <a href="about.html">About</a>
+          <a href="work.html">Work</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer__links">
+          <h5>Services</h5>
+          <a href="services.html#web-development">Web Development</a>
+          <a href="services.html#app-development">App Development</a>
+          <a href="services.html#custom-software">Custom Software</a>
+          <a href="services.html#ui-ux">UI/UX Design</a>
+        </div>
+        <div class="footer__links">
+          <h5>Connect</h5>
+          <a href="#">Twitter / X</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="contact.html">hello@ozisoft.com</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span class="year"></span> Ozisoft. All rights reserved.</p>
+        <p>Crafted with care ✦</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

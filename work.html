@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Work — Ozisoft</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+        <a href=""> <img src="logo.png" width="170px" alt=""></a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="work.html" class="nav__link active">Work</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="contact.html" class="nav__link nav__link--cta">Get a Quote</a></li>
+      </ul>
+      <button class="nav__burger" id="burgerBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="services.html" class="nav__mobile-link">Services</a>
+      <a href="work.html" class="nav__mobile-link">Work</a>
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <a href="contact.html" class="nav__mobile-link nav__mobile-link--cta">Get a Quote →</a>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero__bg"><div class="hero__orb hero__orb--1"></div></div>
+    <div class="container">
+      <p class="section-label">✦ Portfolio</p>
+      <h1 class="page-hero__title">Work We're <span class="hero__title-accent">Proud Of</span></h1>
+      <p class="page-hero__sub">A selection of projects that showcase our range, craft, and results.</p>
+    </div>
+  </section>
+
+  <!-- FILTER -->
+  <section class="work-filter">
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="software">Software</button>
+        <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO GRID -->
+  <section class="portfolio section">
+    <div class="container">
+      <div class="portfolio__grid" id="portfolioGrid">
+
+        <div class="portfolio-item" data-cat="web">
+          <div class="portfolio-item__img portfolio-item__img--1">
+            <div class="portfolio-item__overlay">
+              <a href="contact.html" class="btn btn--white btn--sm">View Case Study →</a>
+            </div>
+          </div>
+          <div class="portfolio-item__info">
+            <div class="portfolio-item__tags"><span>Web</span><span>Branding</span></div>
+            <h3>Zenith Retail</h3>
+            <p>Full e-commerce website redesign with 40% conversion increase.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item portfolio-item--tall" data-cat="app">
+          <div class="portfolio-item__img portfolio-item__img--2">
+            <div class="portfolio-item__overlay">
+              <a href="contact.html" class="btn btn--white btn--sm">View Case Study →</a>
+            </div>
+          </div>
+          <div class="portfolio-item__info">
+            <div class="portfolio-item__tags"><span>App</span><span>iOS</span><span>Android</span></div>
+            <h3>Trackr App</h3>
+            <p>Fitness tracking app — 10,000+ downloads in first month.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-cat="software">
+          <div class="portfolio-item__img portfolio-item__img--3">
+            <div class="portfolio-item__overlay">
+              <a href="contact.html" class="btn btn--white btn--sm">View Case Study →</a>
+            </div>
+          </div>
+          <div class="portfolio-item__info">
+            <div class="portfolio-item__tags"><span>Software</span><span>ERP</span></div>
+            <h3>LogiTrack ERP</h3>
+            <p>Custom ERP saving 20 hrs/week of manual logistics work.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-cat="ecommerce">
+          <div class="portfolio-item__img portfolio-item__img--4">
+            <div class="portfolio-item__overlay">
+              <a href="contact.html" class="btn btn--white btn--sm">View Case Study →</a>
+            </div>
+          </div>
+          <div class="portfolio-item__info">
+            <div class="portfolio-item__tags"><span>E-Commerce</span><span>Shopify</span></div>
+            <h3>LuxeWear Store</h3>
+            <p>Luxury fashion store with custom Shopify theme.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item portfolio-item--wide" data-cat="web">
+          <div class="portfolio-item__img portfolio-item__img--5">
+            <div class="portfolio-item__overlay">
+              <a href="contact.html" class="btn btn--white btn--sm">View Case Study →</a>
+            </div>
+          </div>
+          <div class="portfolio-item__info">
+            <div class="portfolio-item__tags"><span>Web</span><span>SaaS</span></div>
+            <h3>Invoicely SaaS</h3>
+            <p>Full-featured invoicing SaaS platform with 500+ active users.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-cat="app">
+          <div class="portfolio-item__img portfolio-item__img--6">
+            <div class="portfolio-item__overlay">
+              <a href="contact.html" class="btn btn--white btn--sm">View Case Study →</a>
+            </div>
+          </div>
+          <div class="portfolio-item__info">
+            <div class="portfolio-item__tags"><span>App</span><span>FinTech</span></div>
+            <h3>PayFlow Wallet</h3>
+            <p>Mobile payment wallet with biometric auth and real-time transfers.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- METRICS -->
+  <section class="metrics section">
+    <div class="container">
+      <div class="metrics__grid">
+        <div class="metric">
+          <div class="metric__val" data-target="20">0</div>
+          <p>Projects Delivered</p>
+        </div>
+        <div class="metric">
+          <div class="metric__val" data-target="98">0</div>
+          <p>% Client Satisfaction</p>
+        </div>
+        <div class="metric js-compute">
+          <div class="metric__val" id="age">0</div>
+          <p>Years Experience</p>
+        </div>
+        <div class="metric">
+          <div class="metric__val" data-target="40">0</div>
+          <p>Team Members</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="cta-banner__orb"></div>
+    <div class="container">
+      <h2>Your Project Could Be Next</h2>
+      <p>Let's create something remarkable together.</p>
+      <a href="contact.html" class="btn btn--white">Start a Conversation →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+            <a href=""> <img src="logo.png" width="170px" alt=""></a>
+          <p>Building digital products that drive growth and create lasting impact.</p>
+        </div>
+        <div class="footer__links">
+          <h5>Company</h5>
+          <a href="about.html">About</a><a href="work.html">Work</a><a href="contact.html">Contact</a>
+        </div>
+        <div class="footer__links">
+          <h5>Services</h5>
+          <a href="services.html#web-development">Web Development</a>
+          <a href="services.html#app-development">App Development</a>
+          <a href="services.html#custom-software">Custom Software</a>
+          <a href="services.html#ui-ux">UI/UX Design</a>
+        </div>
+        <div class="footer__links">
+          <h5>Connect</h5>
+          <a href="#">Twitter / X</a><a href="#">LinkedIn</a><a href="#">GitHub</a>
+          <a href="contact.html">hello@ozisoft.com</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span class="year"></span> Ozisoft. All rights reserved.</p>
+        <p>Crafted with care ✦</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
